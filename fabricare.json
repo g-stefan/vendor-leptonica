@@ -1,0 +1,16 @@
+{
+	"solution": {
+		"name" : "vendor-leptonica",
+		"type" : "xyo-cpp",
+		"projects": [
+			{
+				"name" : "leptonica",
+				"SPDX-License-Identifier": "Apache-2.0",
+				"sourceLink" : "https://github.com/DanBloomberg/leptonica",
+				"version" : "1.84.1",
+				"noVersion" : true
+			}
+		],
+		"releaseName" : "leptonica"
+	}
+}
