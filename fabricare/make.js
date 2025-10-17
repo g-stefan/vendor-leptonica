@@ -70,6 +70,6 @@ runInPath("temp/cmake", function () {
 	exitIf(Shell.system("ninja clean"));
 });
 
-Shell.copyFile("output/lib/leptonica-1.84.1.lib","output/lib/leptonica.lib");
+Shell.copyFile("output/lib/leptonica-1.86.0.lib","output/lib/leptonica.lib");
 
 Shell.filePutContents("temp/build.done.flag", "done");
